@@ -1,0 +1,63 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background:aqua; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #2f11de,
+      #6561a4
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #080bb2,
+      #4136db
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  table {
+    width: 900px;
+    margin: 0px auto;
+    border-collapse: collapse;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgb(44, 44, 44);
+  }
+  thead {
+    background-color: rgb(90, 20, 90);
+    line-height: 50px;
+    text-align: left;
+    color: white;
+  }
+  thead tr th:first-child {
+    padding-left: 40px;
+  }
+  tbody {
+    line-height: 45px;
+  }
+  tbody tr td:first-child {
+    padding-left: 40px;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: white;
+    color: black;
+  }
+  tbody tr:nth-child(even) {
+    background-color: rgb(192, 190, 190);
+    color: black;
+  }
+  tbody tr {
+    transition: all 0.5s ease;
+  }
+  tbody tr:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  tfoot {
+    background-color: rgb(90, 20, 90);
+    line-height: 50px;
+    text-align: left;
+    color: white;
+  }
+  tfoot tr td {
+    padding-left: 40px;
+  }
+  

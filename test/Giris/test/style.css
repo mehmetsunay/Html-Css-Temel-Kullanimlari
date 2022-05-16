@@ -1,0 +1,16 @@
+.center{
+display: block;
+text-align: center;
+
+}
+
+.italic{
+
+font-style:italic ;
+
+}
+
+.bold{
+font-weight:bolder;
+
+}
